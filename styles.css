@@ -72,6 +72,13 @@ body {
     padding: 0;
 }
 
+body {
+    background-color: #FFF3EC; /* Light Peach */
+    font-family: 'Poiret', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     text-align: center;
     padding: 20px 0; /* Adjust for spacing */
@@ -85,7 +92,7 @@ header {
 
 .navbar {
     list-style-type: none; /* Remove bullet points */
-    padding: 0;
+    padding: 0; /* Removes default padding */
 }
 
 .navbar li {
@@ -103,3 +110,4 @@ header {
 .navbar a:hover {
     color: #CD113B; /* Change color on hover */
 }
+
