@@ -1,113 +1,42 @@
-/* Style Guide for Your Project */
-
-/* Importing the Poiret font from Google Fonts */
+/* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
-/* Global styles */
-body {
-    font-family: 'Poiret One', sans-serif; /* Using Poiret font */
-    background-color: #FFF3EC; /* Light Peach */
-    color: #632E13; /* Dark Brown */
-    margin: 0;
-    padding: 20px;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-    color: #632E13; /* Dark Brown for headings */
-}
-
-/* Link styles */
-a {
-    color: #1D82F3; /* Bright Blue */
-    text-decoration: none;
-}
-
-a:hover {
-    color: #CD113B; /* Bright Red on hover */
-}
-
-/* Button styles */
-.button {
-    background-color: #FF5F00; /* Bright Orange */
-    color: #FFF3EC; /* Light Peach text */
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: #CD113B; /* Bright Red on hover */
-}
-
-/* Additional color variables for later use */
-:root {
-    --dark-blue: #020CAC;
-    --bright-blue: #1D82F3;
-    --light-peach: #FFF3EC;
-    --dark-red: #632E13;
-    --bright-red: #CD113B;
-    --dark-green: #689715;
-    --light-green: #8AB65F;
-    --bright-yellow: #FFBE06;
-}
-
-/* Example classes for other colors */
-.bg-dark-blue {
-    background-color: var(--dark-blue);
-}
-
-.bg-bright-yellow {
-    background-color: var(--bright-yellow);
-}
-
-.text-bright-yellow {
-    color: var(--bright-yellow);
-}
+/* Basic body styles */
 body {
     background-color: #FFF3EC; /* Light Peach */
-    font-family: 'Poiret', sans-serif;
+    font-family: 'Poiret One', sans-serif; /* Set font to Poiret */
     margin: 0;
     padding: 0;
 }
 
-body {
-    background-color: #FFF3EC; /* Light Peach */
-    font-family: 'Poiret', sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    text-align: center;
-    padding: 20px 0; /* Adjust for spacing */
-}
-
+/* Logo styles */
 .logo {
-    font-size: 2.5em; /* Adjust size as needed */
-    color: #632E13; /* Dark Brown */
-    margin-bottom: 20px; /* Space between logo and navbar */
+    text-align: center; /* Center the logo */
+    font-size: 2em; /* Adjust logo size as needed */
+    margin: 20px 0; /* Add margin above and below the logo */
+    color: #632E13; /* Dark brown color for the logo */
 }
 
+/* Navigation bar styles */
 .navbar {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Removes default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the navbar */
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
 }
 
 .navbar li {
-    display: inline; /* Align items horizontally */
-    margin: 0 15px; /* Space between links */
+    margin: 0 20px; /* Add space between the links */
 }
 
 .navbar a {
-    text-decoration: none; /* Remove underline */
-    color: #632E13; /* Dark Brown */
-    font-size: 1.2em; /* Adjust size as needed */
-    transition: color 0.3s; /* Smooth transition for hover effect */
+    text-decoration: none; /* Remove underline from links */
+    color: #632E13; /* Dark brown color for links */
+    font-family: 'Poiret One', sans-serif; /* Ensure links use Poiret font */
+    font-size: 1.2em; /* Adjust link font size as needed */
 }
 
+/* Optional hover effect for links */
 .navbar a:hover {
-    color: #CD113B; /* Change color on hover */
+    color: #1D82F3; /* Change color on hover (Bright Blue) */
 }
-
