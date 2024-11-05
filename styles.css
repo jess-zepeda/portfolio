@@ -1,0 +1,35 @@
+/* Import the Poiret font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+/* Apply the font to the body */
+body {
+    font-family: 'Poiret One', cursive; /* Use the Poiret font */
+    background-color: #f0f0f0; /* Light background color for contrast */
+    color: #333; /* Dark text color for readability */
+    line-height: 1.6; /* Improved line spacing for better readability */
+}
+
+/* Example styles for headings */
+h1, h2, h3 {
+    font-family: 'Poiret One', cursive; /* Ensure headings also use the Poiret font */
+    color: #4a4a4a; /* A slightly darker color for headings */
+}
+
+h1 {
+    font-size: 2.5em; /* Size for main heading */
+}
+
+h2 {
+    font-size: 2em; /* Size for subheadings */
+}
+
+h3 {
+    font-size: 1.5em; /* Size for smaller headings */
+}
+
+/* Paragraph styling */
+p {
+    margin: 0.5em 0; /* Add some margin to paragraphs */
+}
+
+/* Additional styles can be added as needed */
