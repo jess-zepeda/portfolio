@@ -1,42 +1,47 @@
-/* Importing Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/* styles.css */
 
-/* Basic body styles */
 body {
-    background-color: #FFF3EC; /* Light Peach */
-    font-family: 'Poiret One', sans-serif; /* Set font to Poiret */
+    font-family: 'Poiret One', cursive; /* Ensures Poiret font is used */
+    background-color: #FFF3EC; /* Light Peach background */
+    color: #632E13; /* Dark Brown font color */
     margin: 0;
     padding: 0;
 }
 
-/* Logo styles */
-.logo {
-    text-align: center; /* Center the logo */
-    font-size: 2em; /* Adjust logo size as needed */
-    margin: 20px 0; /* Add margin above and below the logo */
-    color: #632E13; /* Dark brown color for the logo */
+header {
+    text-align: center; /* Center the header content */
+    margin-bottom: 20px; /* Space below the header */
 }
 
-/* Navigation bar styles */
+.logo {
+    font-size: 2em; /* Larger font size for the logo/name */
+}
+
 .navbar {
-    display: flex; /* Use flexbox for horizontal layout */
-    justify-content: center; /* Center the navbar */
-    list-style: none; /* Remove bullet points */
+    list-style-type: none; /* Remove bullet points */
     padding: 0; /* Remove default padding */
 }
 
 .navbar li {
-    margin: 0 20px; /* Add space between the links */
+    display: inline; /* Display items in a line */
+    margin: 0 15px; /* Spacing between nav items */
 }
 
 .navbar a {
     text-decoration: none; /* Remove underline from links */
-    color: #632E13; /* Dark brown color for links */
-    font-family: 'Poiret One', sans-serif; /* Ensure links use Poiret font */
-    font-size: 1.2em; /* Adjust link font size as needed */
+    color: #632E13; /* Dark Brown color for links */
+    font-weight: bold; /* Bold text for links */
 }
 
-/* Optional hover effect for links */
 .navbar a:hover {
-    color: #1D82F3; /* Change color on hover (Bright Blue) */
+    color: #CD113B; /* Change color on hover */
+}
+
+main {
+    padding: 20px; /* Add padding for the main content */
+}
+
+footer {
+    text-align: center; /* Center the footer content */
+    margin-top: 20px; /* Space above the footer */
 }
