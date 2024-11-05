@@ -1,35 +1,67 @@
-/* Import the Poiret font from Google Fonts */
+/* Style Guide for Your Project */
+
+/* Importing the Poiret font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
-/* Apply the font to the body */
+/* Global styles */
 body {
-    font-family: 'Poiret One', cursive; /* Use the Poiret font */
-    background-color: #f0f0f0; /* Light background color for contrast */
-    color: #333; /* Dark text color for readability */
-    line-height: 1.6; /* Improved line spacing for better readability */
+    font-family: 'Poiret One', sans-serif; /* Using Poiret font */
+    background-color: #FFF3EC; /* Light Peach */
+    color: #632E13; /* Dark Brown */
+    margin: 0;
+    padding: 20px;
 }
 
-/* Example styles for headings */
-h1, h2, h3 {
-    font-family: 'Poiret One', cursive; /* Ensure headings also use the Poiret font */
-    color: #4a4a4a; /* A slightly darker color for headings */
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #632E13; /* Dark Brown for headings */
 }
 
-h1 {
-    font-size: 2.5em; /* Size for main heading */
+/* Link styles */
+a {
+    color: #1D82F3; /* Bright Blue */
+    text-decoration: none;
 }
 
-h2 {
-    font-size: 2em; /* Size for subheadings */
+a:hover {
+    color: #CD113B; /* Bright Red on hover */
 }
 
-h3 {
-    font-size: 1.5em; /* Size for smaller headings */
+/* Button styles */
+.button {
+    background-color: #FF5F00; /* Bright Orange */
+    color: #FFF3EC; /* Light Peach text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-/* Paragraph styling */
-p {
-    margin: 0.5em 0; /* Add some margin to paragraphs */
+.button:hover {
+    background-color: #CD113B; /* Bright Red on hover */
 }
 
-/* Additional styles can be added as needed */
+/* Additional color variables for later use */
+:root {
+    --dark-blue: #020CAC;
+    --bright-blue: #1D82F3;
+    --light-peach: #FFF3EC;
+    --dark-red: #632E13;
+    --bright-red: #CD113B;
+    --dark-green: #689715;
+    --light-green: #8AB65F;
+    --bright-yellow: #FFBE06;
+}
+
+/* Example classes for other colors */
+.bg-dark-blue {
+    background-color: var(--dark-blue);
+}
+
+.bg-bright-yellow {
+    background-color: var(--bright-yellow);
+}
+
+.text-bright-yellow {
+    color: var(--bright-yellow);
+}
