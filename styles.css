@@ -65,3 +65,41 @@ a:hover {
 .text-bright-yellow {
     color: var(--bright-yellow);
 }
+body {
+    background-color: #FFF3EC; /* Light Peach */
+    font-family: 'Poiret', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0; /* Adjust for spacing */
+}
+
+.logo {
+    font-size: 2.5em; /* Adjust size as needed */
+    color: #632E13; /* Dark Brown */
+    margin-bottom: 20px; /* Space between logo and navbar */
+}
+
+.navbar {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.navbar li {
+    display: inline; /* Align items horizontally */
+    margin: 0 15px; /* Space between links */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline */
+    color: #632E13; /* Dark Brown */
+    font-size: 1.2em; /* Adjust size as needed */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar a:hover {
+    color: #CD113B; /* Change color on hover */
+}
